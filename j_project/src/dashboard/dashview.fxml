@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.dashviewController">
+   <content>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1277.0" prefWidth="1301.0" style="-fx-background-color: creme;">
+         <children>
+            <Circle layoutX="448.0" layoutY="275.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <TextFlow layoutX="50.0">
+               <children>
+                  <ImageView fitHeight="155.0" fitWidth="1225.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Cool%20Text%20-%20Milkman%20Assistant%20341555715612232.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </TextFlow>
+            <ImageView fitHeight="134.0" fitWidth="163.0" layoutX="369.0" layoutY="211.0" onMouseClicked="#docr" pickOnBounds="true">
+               <image>
+                  <Image url="@28-people-avatar-128.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="1113.0" layoutY="278.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Separator layoutX="-2.0" layoutY="166.0" prefHeight="3.0" prefWidth="1301.0">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Separator>
+            <ImageView fitHeight="125.0" fitWidth="195.0" layoutX="1016.0" layoutY="213.0" onMouseClicked="#dore" pickOnBounds="true">
+               <image>
+                  <Image url="@Cow-128.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="448.0" layoutY="571.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <ImageView fitHeight="125.0" fitWidth="163.0" layoutX="365.0" layoutY="496.0" onMouseClicked="#dobs" pickOnBounds="true">
+               <image>
+                  <Image url="@Billing-Machine-Cashier-128.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="791.0" layoutY="839.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <ImageView fitHeight="134.0" fitWidth="163.0" layoutX="705.0" layoutY="770.0" onMouseClicked="#doch" pickOnBounds="true">
+               <image>
+                  <Image url="@AR-robot-Artificial-technology-science-intelligence-128.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="442.0" layoutY="1108.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <ImageView fitHeight="142.0" fitWidth="163.0" layoutX="365.0" layoutY="1031.0" onMouseClicked="#dovl" pickOnBounds="true">
+               <image>
+                  <Image url="@1F3AD-performing-arts-128.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="446.0" layoutY="839.0" radius="105.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <ImageView fitHeight="155.0" fitWidth="151.0" layoutX="371.0" layoutY="770.0" onMouseClicked="#dobc" pickOnBounds="true">
+               <image>
+                  <Image url="@mobile-payment-bill-machine-billing-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="322.0" layoutX="18.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="56.0" fitWidth="305.0" layoutX="976.0" layoutY="390.0" pickOnBounds="true">
+               <image>
+                  <Image url="@cooltext330249651328800.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="322.0" layoutX="287.0" layoutY="390.0" pickOnBounds="true">
+               <image>
+                  <Image url="@cooltext330249548888036.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="280.0" layoutX="311.0" layoutY="679.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cooltext330249663864729.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="313.0" layoutX="644.0" layoutY="950.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cooltext330249678208986.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="320.0" layoutX="291.0" layoutY="1217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cooltext330249689381464.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="320.0" layoutX="300.0" layoutY="946.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cooltext330249706407096.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="1160.0" layoutY="839.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="798.0" layoutY="571.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <ImageView fitHeight="134.0" fitWidth="176.0" layoutX="1079.0" layoutY="770.0" onMouseClicked="#dodf" pickOnBounds="true">
+               <image>
+                  <Image url="@garbage_disposal-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="320.0" layoutX="979.0" layoutY="943.0" pickOnBounds="true">
+               <image>
+                  <Image url="@cooltext330280062441392.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="786.0" layoutY="281.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="1060.0" layoutY="165.0" stroke="BLACK" strokeType="INSIDE" width="287.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae1775" />
+                        <Stop color="#341b80" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <ImageView fitHeight="111.0" fitWidth="163.0" layoutX="79.0" layoutY="363.0" onMouseClicked="#dorock" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@emoji-20-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="91.0" fitWidth="111.0" layoutX="89.0" layoutY="234.0" onMouseClicked="#doturn" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@970_-_Back-128.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="1153.0" layoutY="570.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="785.0" layoutY="1102.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="1139.0" layoutY="1102.0" radius="109.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ae0707" />
+                        <Stop color="#5d30bf" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Label layoutX="8.0" layoutY="533.0" prefHeight="74.0" prefWidth="271.0" text="   ABOUT US" textFill="#ff00d0">
+               <font>
+                  <Font name="System Bold Italic" size="42.0" />
+               </font>
+            </Label>
+            <TextArea editable="false" layoutX="14.0" layoutY="624.0" opacity="0.22" prefHeight="565.0" prefWidth="259.0" style="-fx-background-color: black;" text="A platform&#10;for dairies &#10;to help u &#10;get rid of&#10;that painful&#10;task of &#10;using excel to do just about&#10;everything.&#10;&#10;&#10;&#10;" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </TextArea>
+            <ImageView fitHeight="146.0" fitWidth="181.0" layoutX="700.0" layoutY="205.0" onMouseClicked="#dofc" pickOnBounds="true">
+               <image>
+                  <Image url="@milk-Farm-Agriculture-farm-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="252.0" layoutX="655.0" layoutY="390.0" pickOnBounds="true">
+               <image>
+                  <Image url="@cooltext330872642401548.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="175.0" layoutX="711.0" layoutY="502.0" onMouseClicked="#dopm" pickOnBounds="true">
+               <image>
+                  <Image url="@5-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="175.0" layoutX="1066.0" layoutY="501.0" onMouseClicked="#dobu" pickOnBounds="true">
+               <image>
+                  <Image url="@patient-health-status-update-customer-user-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="280.0" layoutX="1013.0" layoutY="679.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cooltext330913872222628.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="280.0" layoutX="658.0" layoutY="679.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cooltext330913912409095.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="135.0" fitWidth="162.0" layoutX="704.0" layoutY="1035.0" onMouseClicked="#dobg" pickOnBounds="true">
+               <image>
+                  <Image url="@chart__statistics__analytics__business__Graph__bargraph__piechart-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="141.0" fitWidth="174.0" layoutX="1056.0" layoutY="1032.0" onMouseClicked="#dow" pickOnBounds="true">
+               <image>
+                  <Image url="@line-06-128.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="245.0" layoutX="677.0" layoutY="1216.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cooltext339675933734492.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="159.0" layoutX="1049.0" layoutY="1216.0" pickOnBounds="true">
+               <image>
+                  <Image url="@cooltext339675948424655.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

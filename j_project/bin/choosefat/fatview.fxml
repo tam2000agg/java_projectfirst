@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="761.0" prefWidth="847.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="choosefat.fatviewController">
+   <children>
+      <Label layoutX="448.0" layoutY="121.0" prefHeight="39.0" prefWidth="91.0" text="FAT 7" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="121.0" prefHeight="39.0" prefWidth="91.0" text="FAT 9" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="121.0" prefHeight="45.0" prefWidth="91.0" text="FAT 5" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt1" layoutX="105.0" layoutY="183.0" prefHeight="45.0" prefWidth="91.0" />
+      <TextField fx:id="txt2" layoutX="276.0" layoutY="183.0" prefHeight="45.0" prefWidth="91.0" />
+      <TextField fx:id="txt3" layoutX="448.0" layoutY="183.0" prefHeight="45.0" prefWidth="91.0" />
+      <TextField fx:id="txt4" layoutX="625.0" layoutY="183.0" prefHeight="45.0" prefWidth="91.0" />
+      <Label layoutX="105.0" layoutY="52.0" prefHeight="45.0" prefWidth="253.0" text="Select Category:" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="77.0" layoutY="262.0" mnemonicParsing="false" onAction="#doset" prefHeight="60.0" prefWidth="172.0" text="SET PRICE" textFill="#360000">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <ListView fx:id="listmilk" layoutX="385.0" layoutY="27.0" onMouseClicked="#click" prefHeight="70.0" prefWidth="200.0" />
+      <ListView fx:id="listnames" layoutX="32.0" layoutY="384.0" prefHeight="362.0" prefWidth="200.0" />
+      <RadioButton fx:id="radio1" layoutX="334.0" layoutY="365.0" mnemonicParsing="false" text="FAT 4" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="d" />
+         </toggleGroup>
+      </RadioButton>
+      <Label layoutX="333.0" layoutY="307.0" prefHeight="45.0" prefWidth="386.0" text="SELECT THE TYPE OF MILK" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="radio2" layoutX="598.0" layoutY="362.0" mnemonicParsing="false" text="FAT 5" textFill="#140101" toggleGroup="$d">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radio3" layoutX="334.0" layoutY="447.0" mnemonicParsing="false" text="FAT 7" textFill="#140101" toggleGroup="$d">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radio4" layoutX="598.0" layoutY="447.0" mnemonicParsing="false" text="FAT 9" textFill="#140101" toggleGroup="$d">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="txtcowp" layoutX="304.0" layoutY="679.0" prefHeight="45.0" prefWidth="91.0" />
+      <TextField fx:id="txtbuffp" layoutX="450.0" layoutY="679.0" prefHeight="45.0" prefWidth="91.0" />
+      <Label layoutX="105.0" layoutY="121.0" prefHeight="39.0" prefWidth="91.0" text="FAT 4" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="304.0" layoutY="619.0" prefHeight="45.0" prefWidth="126.0" text="COW:" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="463.0" layoutY="619.0" prefHeight="45.0" prefWidth="126.0" text="BUFF:" textFill="#140101">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="440.0" layoutY="512.0" mnemonicParsing="false" onAction="#DOFETCH" prefHeight="60.0" prefWidth="172.0" text="FETCH" textFill="#360000">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="628.0" layoutY="664.0" mnemonicParsing="false" onAction="#doupdate" prefHeight="60.0" prefWidth="172.0" text="UPDATE" textFill="#360000">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
