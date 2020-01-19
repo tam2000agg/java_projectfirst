@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="835.0" style="-fx-background-color: lightgrey;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="patient.patviewController">
+   <children>
+      <Label prefHeight="112.0" prefWidth="835.0" style="-fx-background-color: grey;" text="                       PATIENT FORM" textFill="#1b0101">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="158.0" prefHeight="57.0" prefWidth="187.0" style="-fx-background-color: grey;" text="PATIENT NAME:" textFill="#1e0101">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="235.0" prefHeight="57.0" prefWidth="147.0" style="-fx-background-color: grey;" text="PATIENT ID:" textFill="#1e0101">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="310.0" prefHeight="57.0" prefWidth="133.0" style="-fx-background-color: grey;" text="DONOR ID:" textFill="#1e0101">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="386.0" prefHeight="57.0" prefWidth="166.0" style="-fx-background-color: grey;" text="BLOOD GRUP:" textFill="#1e0101">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="465.0" prefHeight="57.0" prefWidth="166.0" style="-fx-background-color: grey;" text="PATIENT AGE:" textFill="#1e0101">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="539.0" prefHeight="57.0" prefWidth="133.0" style="-fx-background-color: grey;" text="CONTACT:" textFill="#1e0101">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tname" layoutX="271.0" layoutY="158.0" prefHeight="57.0" prefWidth="187.0" />
+      <TextField fx:id="tid" layoutX="271.0" layoutY="235.0" prefHeight="57.0" prefWidth="187.0" />
+      <TextField fx:id="tdonor" layoutX="271.0" layoutY="310.0" prefHeight="57.0" prefWidth="187.0" />
+      <TextField fx:id="tblood" layoutX="271.0" layoutY="386.0" prefHeight="57.0" prefWidth="187.0" />
+      <TextField fx:id="tage" layoutX="271.0" layoutY="465.0" prefHeight="57.0" prefWidth="187.0" />
+      <TextField fx:id="tcontact" layoutX="271.0" layoutY="539.0" prefHeight="57.0" prefWidth="187.0" />
+      <Button layoutX="601.0" layoutY="162.0" mnemonicParsing="false" onAction="#dosave" prefHeight="50.0" prefWidth="118.0" style="-fx-background-color: GREY;" text="SAVE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="601.0" layoutY="239.0" mnemonicParsing="false" onAction="#dofetch" prefHeight="50.0" prefWidth="118.0" style="-fx-background-color: GREY;" text="FETCH">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="601.0" layoutY="314.0" mnemonicParsing="false" onAction="#doupdate" prefHeight="50.0" prefWidth="126.0" style="-fx-background-color: GREY;" text="UPDATE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="601.0" layoutY="390.0" mnemonicParsing="false" onAction="#dodelete" prefHeight="50.0" prefWidth="126.0" style="-fx-background-color: GREY;" text="DELETE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="601.0" layoutY="465.0" mnemonicParsing="false" onAction="#dodrop" prefHeight="50.0" prefWidth="126.0" style="-fx-background-color: GREY;" text="DROP">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
